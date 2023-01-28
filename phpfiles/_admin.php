@@ -9,17 +9,17 @@
 
     if ($loggedIN){
 
-        if($_SESSION["role"] == "admin"){
+        if($_SESSION["role"] == "seller"){
     
             $query = "SELECT * FROM USERDATA WHERE USERNAME = '$_SESSION[username]'";
             $result = mysqli_query($conn, $query);
             $row = mysqli_fetch_array($result);
     
             $username = $_SESSION["username"];
-            $name = $row["FirstName"]." ".$row["LastName"];
-            $phonenumber = $row["PhoneNumber"];
-            $email = $row["Email"];
-            $image = $row["Image"];
+            $name = $row["fname"]." ".$row["lname"];
+            $phonenumber = $row["phonenumber"];
+            $email = $row["email"];
+            $image = $row["imgdest"];
     
             // mysqli_select_db($conn, "usertables");
     

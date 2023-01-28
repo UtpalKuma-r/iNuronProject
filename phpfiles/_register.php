@@ -102,7 +102,7 @@ function extentioncheck($Image){
                                     $result = mysqli_query($conn, $query);
 
                                     if ($result){
-                                        echo "<script>if(confirm('Your Record Sucessfully Inserted. Now Login')){document.location.href='LoginPage.php'};</script>";
+                                        echo "<script>if(confirm('Your Record $password Sucessfully Inserted $salt. Now Login $passwordhash')){document.location.href='LoginPage.php'};</script>";
                                     }
                                 }
                             }

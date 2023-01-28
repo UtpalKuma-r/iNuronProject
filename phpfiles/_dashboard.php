@@ -1,12 +1,12 @@
 <?php
-
+//Dashboard for consumer
 include "_connection.php";
 
 session_start();
 
 if (isset($_SESSION["username"])){
 
-    if($_SESSION["role"] == "user"){
+    if($_SESSION["role"] == "consumer"){
 
         $query = "SELECT * FROM USERDATA WHERE USERNAME = '$_SESSION[username]'";
         $result = mysqli_query($conn, $query);
