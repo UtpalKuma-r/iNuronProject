@@ -4,7 +4,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Easy Application</title>
+  <title>E-Farm</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -194,11 +194,9 @@
               </fieldset>
             </form>
             <ul class="social_small">
-              <li class="facebook first"><a href="#" title="Facebook">Facebook</a></li>
-              <li class="twitt"><a href="#" title="Twitter">Twitter</a></li>
-              <li class="googleplus"><a href="#" title="google plus">Google plus</a></li>
-              <li class="flickr"><a href="#" title="flickr">Flickr</a></li>
-              <li class="dribbble"><a href="#" title="Dribbble">Dribbble</a></li>
+              <li class="facebook first"><a href="https://www.instagram.com/ppuks_community/" title="Facebook">Instagram</a></li>
+              <li class="twitt"><a href="https://twitter.com/PPUKScommunity" title="Twitter">Twitter</a></li>
+              <li class="googleplus"><a href="https://www.linkedin.com/in/ppuks-community-854a0a263/?original_referer=" title="google plus">LinkedIn</a></li>
             </ul>
           </div>
         </div>
@@ -214,7 +212,7 @@
           <div class="span6">
             <div class="pull-right">
               <div class="credits">
-                Designed by <a href="#">Yasheswani</a>
+                Designed by <a href="#">Utpal Kumar</a>
               </div>
             </div>
           </div>

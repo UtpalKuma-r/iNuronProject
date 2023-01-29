@@ -180,7 +180,7 @@ include "phpfiles/_query.php";
           <div class="span6">
             <div class="pull-right">
               <div class="credits">
-                Designed by <a href="#">Yasheswani</a>
+                Designed by <a href="#">Utpal Kumar</a>
               </div>
             </div>
           </div>
