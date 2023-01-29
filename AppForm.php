@@ -7,7 +7,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Easy Application</title>
+  <title>E-Farm</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -188,11 +188,13 @@
           <div class="widget">
             <h4>About Developers</h4>
             <address>
-					<strong>YASHESWANI</strong><br>
-					
-					<strong>PIYUSH GAURAV</strong><br>
-					
-					<strong>UTPAL KUMAR</strong><br>
+            <strong>UTPAL KUMAR</strong><br>
+
+            <strong>PUSHKAR PALLAV</strong><br>
+
+            <strong>PARTH DWIVEDI</strong><br>
+
+            <strong>ROHAN JAISWAL</strong><br>
 					
 					</address>
             <address>
