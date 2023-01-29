@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
+$host = "containers-us-west-174.railway.app";
 $user = "root";
-$passwd = "";
-$database = "inuron";
+$passwd = "ICqlgVAS2gc65WCAf5jY";
+$database = "railway";
 
 $conn = mysqli_connect($host, $user, $passwd, $database);
 
