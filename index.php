@@ -90,6 +90,7 @@
   <section id="maincontent">
     
     <div class="container">
+    <img alt="" class="auto-style2" src="assets/img/logo1.png" style="height:100%; width:100%" />
       <!-- <FORM method="post" enctype="multipart/form-data"> -->
         <TABLE ALIGN="CENTER">
           <TR>
