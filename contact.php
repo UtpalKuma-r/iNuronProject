@@ -35,9 +35,11 @@
         }
     </style>
 </head>
+
 <?php
   include "phpfiles/_contact.php";
 ?>
+
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
 
   <header>

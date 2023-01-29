@@ -35,9 +35,11 @@
         }
     </style>
 </head>
+
 <?php
-include "phpfiles/_admin.php";
+  include "phpfiles/_admin.php";
 ?>
+
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
 
   <header>
@@ -53,10 +55,10 @@ include "phpfiles/_admin.php";
             <nav>
               <ul class="nav topnav">
                 <li class="dropdown success">
-                  <a href="index.php"><i class="icon-home icon-white"></i> Home</a>
+                  <a href="Order.php"><i class="icon-home icon-white"></i> Orders</a>
                 </li>
                     <li class='dropdown primary'>
-                    <a href='Admin.php'><i class='icon-star icon-white'></i> Dashboard</a>
+                    <a href='Inventory.php'><i class='icon-star icon-white'></i> Inventory</a>
                     </li>
                     <li class="dropdown info active">
                   <a href="phpfiles/_logout.php"><i class="icon-bullhorn icon-white"></i> Logout</a>

@@ -13,15 +13,15 @@ if (isset($_SESSION["username"])){
         $row = mysqli_fetch_array($result);
 
         $username = $_SESSION["username"];
-        $name = $row["FirstName"]." ".$row["LastName"];
-        $phonenumber = $row["PhoneNumber"];
-        $email = $row["Email"];
-        $image = $row["Image"];
+        $name = $row["fname"]." ".$row["lname"];
+        $phonenumber = $row["phonenumber"];
+        $email = $row["email"];
+        $image = $row["imgdest"];
 
         // mysqli_select_db($conn, "usertables");
 
-        $query = "SELECT * FROM fileprogress WHERE UserName = '$username'";
-        $filesAvailable = mysqli_query($conn, $query);
+        // $query = "SELECT * FROM fileprogress WHERE UserName = '$username'";
+        // $filesAvailable = mysqli_query($conn, $query);
 
         // echo $username." ".$phonenumber." ".$email;
     }

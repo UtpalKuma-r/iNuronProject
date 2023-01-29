@@ -19,11 +19,11 @@
   <link href="assets/color/success.css" rel="stylesheet">
 
   <!-- fav and touch icons -->
-  <!-- <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"> -->
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
     <style type="text/css">
         .auto-style2 {
@@ -35,10 +35,7 @@
         }
     </style>
 </head>
-<?php
-  include "phpfiles/_dashboard.php";
-  
-?>
+
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
 
   <header>
@@ -54,13 +51,13 @@
             <nav>
               <ul class="nav topnav">
                 <li class="dropdown success">
-                  <a href="USerDash.php"><i class="icon-home icon-white"></i> Home</a>
+                  <a href="index.php"><i class="icon-home icon-white"></i> Home</a>
                 </li>
                 <li class="dropdown primary">
-                  <a href="UserDash.php"><i class="icon-star icon-white"></i> Orders</a>
+                  <a href="RegForm.php"><i class="icon-star icon-white"></i> Register</a>
                 </li>
                 <li class="dropdown info active">
-                  <a href="phpfiles/_logout.php"><i class="icon-bullhorn icon-white"></i> Logout</a>
+                  <a href="LoginPage.php"><i class="icon-bullhorn icon-white"></i> Login</a>
                 </li>
                 <li class="inverse">
                   <a href="Contact.php"><i class="icon-envelope icon-white"></i> Contact</a>
@@ -69,7 +66,7 @@
             </nav>
           </div>
           <!-- end menu -->
-            <img alt="" class="auto-style2" src="assets/img/logo1.png" /></div>
+            <img alt="" class="auto-style2" src="assets/img/logo1.png" style="height:80px; width:170px" /></div>
       </div>
     </div>
   </header>
@@ -78,11 +75,11 @@
   <!-- Subhead
 ================================================== -->
   <section id="subintro">
-    <div class="jumbotron subhead" id="overview" style="margin:0;">
+    <div class="jumbotron subhead" id="overview">
       <div class="container">
         <div class="row">
           <div class="span8">
-            <h3 style="font-size: xx-large; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"><u>User Dashboard:</u></h3>
+            <h3 style="font-size: xx-large; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Registration:</h3>
             <p>&nbsp;</p>
           </div>
         </div>
@@ -91,50 +88,51 @@
   </section>
 
   <section id="maincontent">
+    
     <div class="container">
+      <FORM method="post" enctype="multipart/form-data">
+        <TABLE ALIGN="CENTER">
+          <TR>
+            <TD colspan="3" ><H3>Add Items to your Inventory ..</H3></TD>
+          </tr>
+          <TR>
+            <TD >Item Name:</TD>
+            <TD ><INPUT TYPE="TEXT" NAME="iname" required> </TD>
+            <TD ></TD>
+          </tr>
+          <TR>
+            <TD >Price:</TD>
+            <TD colspan="2"><INPUT TYPE="tel" NAME="price" required></TD>
+          </tr>
+          <TR>
+            <TD >Stock:</TD>
+            <TD ><INPUT TYPE="TEXT" NAME="stock" required> </TD>
+            <TD ></TD>
+          </tr>
+          <TR>
+            <TD>Img. Upload:</TD>
+            <TD><INPUT TYPE="file" NAME="image" required></TD>
+            <!-- <TD WIDTH="100"></TD> -->
+          </tr>
 
-                <table align="center">
-                    <tr>
-                    <td width="400" style="border: solid;">
-                    <div style="margin: 5px; border-bottom:solid 2px red;">
-                    <img src="<?php echo $image ?>" height="20o" width="100" style="border-radius: 100%; margin:5px;">
-                    <h1 style="display: inline;"><?php echo $username; ?></h1>
-                    </div>
-                    <div style="margin: 5px; border-bottom:solid 2px red;">
-                    <h5>
-                      <ul style="list-style-type: none;"><br>
-                      <li>Name: <?php echo $name; ?></li><br>
-                      <li>Phone Number: <?php echo $phonenumber; ?></li><br>
-                      <li>Email: <?php echo $email; ?></li><br>
-                    </ul>
-                    </h5>
-                  </div>
-                    <div style="margin: 5px;"><a href="AppForm.php"><button type="button">New Order</button></a></div>
+          <tr>
+            <td colspan=3><input type="checkbox" name="agg" id="agg" required>By continuing you agree out terms and conditions</td>
+            <td></td>
+            <td></td>
+          </tr>
+                <tr>
+                    <td><INPUT TYPE="Submit" VALUE="SUBMIT" style="background-color: #FFFF00; font-size: large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: 102px;" ></td>
+                    <td><INPUT TYPE="RESET" style="background-color: #FF0000; font-size: large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: 100px; color: #FFFFFF;"></td>
+                </tr>     
+        </TABLE>
+	    </FORM>
 
-                         </td>
-                        <!-- <td width="600">
-                            <table border="1" bordercolor="Green" align="right">
-	                            <TR><TD COLSPAN="3" style="background-color: #FF0000; color: #FFFFFF; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: large; font-weight: bold;" class="auto-style4"><u>ACTIVE APPLICATION:</u></TD></TR>
-	                            <TR><TH>FILE ID</TH><TH>DESCRIPTION</TH><TH>Status</TH></TR>
-                              <//?php
-                                if (mysqli_num_rows($filesAvailable) == 0){
-                                  echo "<TR><TD width=200 colspan=3 >No files available</TD></TR>";
-                                } 
-                                else{
-                                  while ($row = mysqli_fetch_assoc($filesAvailable)){
-                                    echo "<TR><TD width=200>$row[FileID]</TD><TD width=400>$row[Department] $row[Remarks]</TD><TD width=150>$row[FileStatus]</TD></TR>";
-                                  }
-                                }
-	                            
-                              ?>
-	                        </table>
-                       
-                        </td> -->
-                    </tr>
-                </table> 
     </div>
+    
   </section>
-  <footer class="footer">
+  <!-- Footer
+ ================================================== -->
+<footer class="footer">
     <div class="container">
       <div class="row">
         <div class="span4">
@@ -210,9 +208,17 @@
   <script src="assets/js/flexslider/jquery.flexslider.js"></script>
   <script src="assets/js/flexslider/setting.js"></script>
   <script src="assets/js/application.js"></script>
+
+  <!-- Template Custom JavaScript File -->
   <script src="assets/js/custom.js"></script>
 
 
 </body>
 
 </html>
+
+<?php
+ require_once "phpfiles/_register.php";
+?>
+
+
