@@ -1,5 +1,5 @@
 <?php
-$host = "containers-us-west-174.railway.app";
+$host = "containers-us-west-174.railway.app:"."7804";
 $user = "root";
 $passwd = "ICqlgVAS2gc65WCAf5jY";
 $database = "railway";
