@@ -120,13 +120,15 @@
             <div class="widget">
                 <h4>About Developers</h4>
                 <address>
-                        <strong>YASHESWANI</strong><br>
+                <strong>UTPAL KUMAR</strong><br>
+
+                <strong>PUSHKAR PALLAV</strong><br>
+
+                <strong>PARTH DWIVEDI</strong><br>
+
+                <strong>ROHAN JAISWAL</strong><br>
                         
-                        <strong>PIYUSH GAURAV</strong><br>
-                        
-                        <strong>UTPAL KUMAR</strong><br>
-                        
-                        </address>
+                </address>
                 <address>
                         <strong>Contact us</strong><br>
                         <a href="gmail.com">contact.utpallkumar@gmail.com</a>
