@@ -74,7 +74,7 @@
 
   <!-- Subhead
 ================================================== -->
-  <section id="subintro">
+  <!-- <section id="subintro">
     <div class="jumbotron subhead" id="overview">
       <div class="container">
         <div class="row">
@@ -85,13 +85,13 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section id="maincontent">
     
     <div class="container">
     <img alt="" class="auto-style2" src="assets/img/logo1.png" style="height:100%; width:100%" />
-      <!-- <FORM method="post" enctype="multipart/form-data"> -->
+      <!-- <FORM method="post" enctype="multipart/form-data"> 
         <TABLE ALIGN="CENTER">
           <TR>
             <TD colspan="3" ><H3>Add Items to your Inventory ..</H3></TD>
@@ -113,7 +113,7 @@
           <TR>
             <TD>Img. Upload:</TD>
             <TD><INPUT TYPE="file" NAME="image" required></TD>
-            <!-- <TD WIDTH="100"></TD> -->
+             <TD WIDTH="100"></TD> 
           </tr>
 
           <tr>
@@ -126,7 +126,7 @@
                     <td><INPUT TYPE="RESET" style="background-color: #FF0000; font-size: large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: 100px; color: #FFFFFF;"></td>
                 </tr>     
         </TABLE>
-	    </FORM>
+	    </FORM>-->
 
     </div>
     
